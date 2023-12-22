@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="women.css">
+    <title>Your Online Shop</title>
+</head>
+<body>
+
+    <header class="container">
+        <div class="logo">ElegantHour</div>
+        <div class="sections">
+            <div class="section" data-target="home"></div>
+            <div class="section" data-target="men"></div>
+            <div class="section" data-target="women"></div>
+            <div class="section" data-target="brands"></div>
+        </div>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search...">
+            <button id="searchButton">Search</button>
+        </div>
+    </header>
+
+    <div class="main-content-container">
+        <h1>ROLEX WATCHES IN ONTARIO - <br>DAMIANI JEWELLERS</h1>
+        <p>Browse Rolex Watches online at Damiani Jewellers. Official Authorized Rolex Jeweler of <br>Men's and Women's Rolex Watches. Discover more at Damiani Jewellers.</p>
+
+        <div class="watches">
+            <div class="watch">
+                <img src="../project/women1.png" alt="Rolex Watch" class="one">
+                <p>Rolex</p><h3>COSMOGRAPH DAYTONA,</h3><p>Oyster, 40 mm, platinum</p>
+                <button class="buy-now-button">Buy Now</button>
+            </div>
+
+            <div class="watch">
+                <img src="../project/women2.png" alt="Casio Watch" class="two">
+                <p>Rolex</p><h3>GMT-MASTER II,</h3><p>Oyster, 40 mm, Oystersteel and Everose gold</p>
+                <button class="buy-now-button">Buy Now</button>
+            </div>
+
+            <div class="watch">
+                <img src="../project/women3.png" alt="Casio Watch" class="three">
+                <p>Rolex</p><h3>EXPLORER II Oyster,</h3><p>42 mm, Oystersteel</p>
+                <button class="buy-now-button">Buy Now</button>
+            </div>
+        </div>
+    </div>
+
+    <form class="filters">
+        <div class="filter-container">
+            <div class="filter-inner">
+                <div class="filter-name-container">
+                    <h2>Gender</h2>
+                </div>
+                <div class="filter-options-container">
+                    <div class="filter-option">
+                        <div class="filter-option-inner">
+                            <input id="men-filter" name="men" type="checkbox" data-spec-name="Gender"><label for="men-filter">Men</label>
+                        </div>
+                    </div>
+
+                    <div class="filter-option">
+                        <div class="filter-option-inner">
+                            <input id="women-filter" name="women" type="checkbox" data-spec-name="Gender"><label for="women-filter">Women</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="filter-container">
+            <div class="filter-inner">
+                <div class="filter-name-container">
+                    <h2>Size</h2>
+                </div>
+                <div class="filter-options-container">
+                    <div class="filter-option">
+                        <div class="filter-option-inner">
+                            <input id="small size-filter" name="small size" type="checkbox" data-spec-name="Size"><label for="small size-filter">Small Size</label>
+                        </div>
+                    </div>
+
+                    <div class="filter-option">
+                        <div class="filter-option-inner">
+                            <input id="mid-size-filter" name="mid-size" type="checkbox" data-spec-name="Size"><label for="mid-size-filter">Mid-size</label>
+                        </div>
+                    </div>
+
+                    <div class="filter-option">
+                        <div class="filter-option-inner">
+                            <input id="large size-filter" name="large size" type="checkbox" data-spec-name="Size"><label for="large size-filter">Large Size</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="filter-container">
+            <div class="filter-inner">
+                <div class="filter-name-container">
+                    <h2>Material</h2>
+                </div>
+                <div class="filter-options-container">
+                    <div class="filter-option">
+                        <div class="filter-option-inner">
+                            <input id="oystersteel-filter" name="oystersteel" type="checkbox" data-spec-name="Material"><label for="oystersteel-filter">Oystersteel</label>
+                        </div>
+                    </div>
+
+                    <div class="filter-option">
+                        <div class="filter-option-inner">
+                            <input id="oystersteel and gold-filter" name="oystersteel and gold" type="checkbox" data-spec-name="Material"><label for="oystersteel and gold-filter">Oystersteel And Gold</label>
+                        </div>
+                    </div>
+
+                    <div class="filter-option">
+                        <div class="filter-option-inner">
+                            <input id="gold-filter" name="gold" type="checkbox" data-spec-name="Material"><label for="gold-filter">Gold</label>
+                        </div>
+                    </div>
+
+                    <div class="filter-option">
+                        <div class="filter-option-inner">
+                            <input id="platinum-filter" name="platinum" type="checkbox" data-spec-name="Material"><label for="platinum-filter">Platinum</label>
+                        </div>
+                    </div>
+
+                    <div class="filter-option">
+                        <div class="filter-option-inner">
+                            <input id="rlx titanium-filter" name="rlx titanium" type="checkbox" data-spec-name="Material"><label for="rlx titanium-filter">Rlx Titanium</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="filter-container">
+            <div class="filter-inner">
+                <div class="filter-name-container">
+                    <h2>Dial</h2>
+                </div>
+                <div class="filter-options-container">
+                    <div class="filter-option">
+                        <div class="filter-option-inner">
+                            <input id="light dial-filter" name="light dial" type="checkbox" data-spec-name="Dial"><label for="light dial-filter">Light Dial</label>
+                        </div>
+                    </div>
+
+                    <div class="filter-option">
+                        <div class="filter-option-inner">
+                            <input id="coloured dial-filter" name="coloured dial" type="checkbox" data-spec-name="Dial"><label for="colored dial-filter">Colored Dial</label>
+                        </div>
+                    </div>
+
+                    <div class="filter-option">
+                        <div class="filter-option-inner">
+                            <input id="dark dial-filter" name="dark dial" type="checkbox" data-spec-name="Dial"><label for="dark dial-filter">Dark Dial</label>
+                        </div>
+                    </div>
+
+                    <div class="filter-option">
+                        <div class="filter-option-inner">
+                            <input id="gem-set dial-filter" name="gem-set dial" type="checkbox" data-spec-name="Dial"><label for="gem-set dial-filter">Gem-set Dial</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <button type="submit" class="submit-button">Submit</button>
+
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="women.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

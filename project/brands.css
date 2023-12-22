@@ -1,0 +1,124 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Your Chosen Font', sans-serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    color: rgb(57, 14, 86);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.sections {
+    display: flex;
+}
+
+.section {
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(49, 5, 61);
+    transition: color 0.3s ease;
+}
+
+.section:hover {
+    color: #000800;
+}
+
+#brands {
+    color: #000800;
+}
+
+#men:hover {
+    color: rgb(49, 5, 61);
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#searchInput {
+    padding: 12px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    width: 200px;
+    background-color: #f2f2f2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+#searchButton {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: rgb(49, 5, 61);
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+#searchButton:hover {
+    background-color: rgb(3, 0, 3);
+}
+
+.brand-list {
+    text-align: center;
+}
+
+.brand-list h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.brand-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.brand-list ul li {
+    margin-bottom: 10px;
+}
+
+.brand-list ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.brand-list ul li ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 5px;
+}
+
+.brand-list ul li ul li {
+    margin-bottom: 5px;
+}
+
+.brand-list ul li ul li a {
+    font-weight: normal;
+    font-size: 14px;
+    color: #666;
+}

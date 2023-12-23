@@ -4,7 +4,6 @@ $(document).ready(function() {
         { id: 'men', name: 'Men', page: 'men.html' },
         { id: 'women', name: 'Women', page: 'women.html' },
         { id: 'brands', name: 'Brands', page: 'brands.html' }
-        // Add more sections as needed
     ];
 
     sectionsData.forEach(function(section) {
@@ -17,7 +16,6 @@ $(document).ready(function() {
             return section.id === sectionId;
         }).page;
 
-        // Redirect to the target page
         window.location.href = targetPage;
     });
 
